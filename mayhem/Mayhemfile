@@ -1,0 +1,4 @@
+project: semver
+target: semver-fuzz
+cmds:
+  - cmd: ./string-fuzz.libfuzzer
